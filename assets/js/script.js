@@ -14,7 +14,7 @@ function generatePassword() {
   // find the desired password length
   let passwordLength = window.prompt('Your password can be 8-128 characters long. How long would you like it to be?')
 
-  charSet = ""
+  let charSet = ""
   
   // turn the password lenght into and integer and round to the nearest whole number
   passwordLength = parseInt(Math.round(passwordLength));
